@@ -1,20 +1,23 @@
 import react from "react";
 import M from 'react-materialize';
 import { Footer } from 'react-materialize';
+import pdf from '../../assets/kbresume.pdf';
+
 
 function Foo() {
     return(
         <Footer
-        className="example"
-        copyrights="&copy 2015 Copyright Text"
-        links={<ul><li><a className="grey-text text-lighten-3" href="#!">Link 1</a></li><li><a className="grey-text text-lighten-3" href="#!">Link 2</a></li><li><a className="grey-text text-lighten-3" href="#!">Link 3</a></li><li><a className="grey-text text-lighten-3" href="#!">Link 4</a></li></ul>}
-        moreLinks={<a className="grey-text text-lighten-4 right" href="#!">More Links</a>}
+        className="blue"
+       
+        copyrights=""
+        links={<ul><li><a className="grey-text text-lighten-3" href="https://www.linkedin.com/in/kamila-raggi-676039101/">LinkedIn</a></li><li><a className="grey-text text-lighten-3" href="https://github.com/kamilaraggi">GitHub</a></li><li><a className="grey-text text-lighten-3" href={pdf}>Resume</a></li></ul>}
+        moreLinks={<a className="grey-text text-lighten-4 right" href="#!"></a>}
       >
         <h5 className="white-text">
-          Footer Content
+         
         </h5>
         <p className="grey-text text-lighten-4">
-          You can use rows and columns here to organize your footer content.
+          
         </p>
       </Footer>
     )

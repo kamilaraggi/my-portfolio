@@ -4,7 +4,7 @@ import Aboutme from './components/Aboutme/Aboutme';
 import Projects from './components/Projects/Projects';
 import Contactme from './components/Contactme/Contactme';
 import Foo from './components/Footer/Footer';
-import Resume from './components/Resume/resume';
+import Resumebtn from './components/Resume/resume';
 import './index.css';
 
 
@@ -21,7 +21,7 @@ function App() {
       case 'Projects':
         return <Projects />;
       case 'Resume':
-        return <Resume />;
+        return <Resumebtn />;
       default:
         return <Aboutme />;
     }
@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="App">
    <MenuBar currentPage={currentPage} handlePageChange={handlePageChange}/>
-   <main>
+     <main>
         {renderPage()}
       </main>
     <Foo/>

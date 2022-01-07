@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+     margin: 0;
+      padding: 0;
+}
+
+main {
+  box-sizing: border-box;
+      margin: 15px;
+      padding: 15px;
+}
+
+#project {
+  box-sizing: border-box;
+      margin: 30px;
+      padding: 30px;
+}

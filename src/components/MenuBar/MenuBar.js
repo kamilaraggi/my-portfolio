@@ -11,6 +11,7 @@ function MenuBar(props) {
     const tabs = ['About Me', 'Projects' , 'Resume', 'Contact'];
 return (
     <Navbar
+    className="blue"
     alignLinks="right"
     brand={<a className="brand-logo" href="#">Kamila Raggi</a>}
     id="mobile-nav"
